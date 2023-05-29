@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+
+    $("#lnkCollapse").click(function () {
+        $("#contentArea").slideToggle("slow");
+    });
+
+    $("#lnkClose").click(function () {
+        $("#contentArea").slideUp(200);
+    });
+});
+</script>
+</head>
+<body>
+
+<p> Click within braces to make text appear/disappear</p>
+
+<div class="box" style="width: 400px">
+    <div class="title">
+        Collapse Box (<a id="lnkCollapse" 
+                  href="#" style="color: White; font-size: 12px;
+            text-decoration: none;">Click Here</a>)
+    </div>
+    <div id="contentArea" class="content">
+        <div align="right"><a id="lnkClose" 
+                 href="#" style="font-size: 10px;">
+	Close</a></div>
+           
+        Your text will be here
+
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>Example </title>
+<style>
+        #divSocial a img
+        {
+            position: relative;
+            border: none;
+        }
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script  type="text/javascript">
+$(document).ready(function () {
+$("#divSocial a img").hover(function () 
+	{
+                    $(this).animate({ top: "-15" });
+    	},function () {
+                    $(this).animate({ top: "0" });
+    		});
+
+});
+</script>
+</head>
+<body>
+      <p>Some sample Images.<p>
+      <div id="divSocial">
+        <a href="#">
+            <img src="one.png" />
+        </a><a href="#">
+            <img src="two.png" />
+        </a><a href="#">
+            <img src="three.png" />
+        </a><a href="#">
+            <img src="four.png" />
+        </a><a href="#">
+            <img src="five.png" />
+        </a><a href="#">
+            <img src="six.png" />
+        </a>
+    </div>
+   </body>
+
