@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("p").click(function(){
+                    $(this).hide();
+                });
+            });
+        </script>
+    <title>My Profile</title>
+</head>
+<body>
+    <nav id="nav">
+        <ul class="links">
+            <li><a href="main_page.html">My Profile</a></li>
+            <li><a href="course_info.html">Course Info</a></li>
+            <li><a href="contact_me.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div id="profileContent">
+        <h1 id="aboutmeTitle"> About Me </h1>
+        <div id="profileImage">
+            <img src="my_face.jpg"/> 
+        </div>
+        <p id="aboutmeContent">Hello there! My name is Isaiah Sarkor and I am an aspiring software developer and programmer. I am currently in my fourth year studying Computer Science at Thompson Rivers University in Kamloops, British Columbia, Canada. While I have learned 
+            a lot regarding programming and software development, I am eager to improve and enhance my knowledge and understanding of them. My interests include: gaming, paintball, computers, programming, exercising, and technology in general.</p>
+    </div>
+</body>
+</html>
