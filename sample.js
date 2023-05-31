@@ -24,6 +24,10 @@ function changeStyle( f, b )
    document.body.setAttribute("class", f + " " + b ); 
 } // end function changeStyle
 
+function changeBG() {
+   document.getElementById()
+}
+
 window.addEventListener( "load", start, false );
 
 
